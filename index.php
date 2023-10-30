@@ -69,6 +69,7 @@ switch (ENVIRONMENT)
 	default:
 		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
 		echo 'The application environment is not set correctly.';
+		echo '😄😄😂🤣😁';
 		exit(1); // EXIT_ERROR
 }
 
